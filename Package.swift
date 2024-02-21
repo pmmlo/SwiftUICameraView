@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "CameraView",
+    name: "SwiftUICameraView",
     platforms: [
         .iOS(.v13),
     ],
