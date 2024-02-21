@@ -13,7 +13,7 @@ In your Xcode project go to `File -> Swift Packages -> Add Package Dependency`
 
 And enter
 ```
-https://github.com/brettfazio/CameraView
+https://github.com/pmmlo/SwiftUICameraView
 ```
 
 As the url. You've now integrated the 📷🪟 into your app!
