@@ -121,9 +121,8 @@ private class PreviewView: UIView, AVCapturePhotoCaptureDelegate {
         
         self.captureSession = session
         delegate?.cameraSessionStarted()
-        DispatchQueue.global(qos: .background).async {
-            self.captureSession?.startRunning()
-        }
+        
+        self.captureSession?.startRunning()
     }
     
     override class var layerClass: AnyClass {
